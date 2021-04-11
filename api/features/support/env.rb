@@ -1,0 +1,1 @@
+URL ||= YAML.load_file("#{Dir.pwd}/features/support/config/routes.yml")

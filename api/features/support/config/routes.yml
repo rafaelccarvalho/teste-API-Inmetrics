@@ -1,0 +1,5 @@
+base_uri: https://inm-api-test.herokuapp.com
+post: /empregado/cadastrar
+get_user: /empregado/list/20
+get_all: /empregado/list_all
+put: /empregado/alterar/20
