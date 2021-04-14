@@ -1,15 +1,16 @@
-#language:pt
+#language: pt
 
-Funcionalidade: GET
-GET é usado para buscar retorno de alguma informação dentro da API.
+Funcionalidade: Listar usuário usando o endpoint /empregado/list/
+Buscar um ou mais usúarios dentro da API usando o verbo GET
 
-@get
+@get_user
 Cenário: Listar um usuário cadastrado
-Dado que eu queira solicitar um usuário cadastrado
+Dado que eu queira "solicitar um usuário cadastrado"
+Quando eu realizar uma requisição para "get user"
 Então recebo o codigo "202"
 
-@get_all
+@get_all_users
 Cenário: Listar todos os usuários cadastrados
-Dado que eu queira solicitar a lista de todos os usuários cadastrados
+Dado que eu queira "solicitar a lista de todos os usuários cadastrados"
+Quando eu realizar uma requisição para "get all"
 Então recebo o codigo "200"
-
