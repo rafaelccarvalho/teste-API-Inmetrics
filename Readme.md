@@ -1,4 +1,4 @@
-# **Teste de API - Inmetrics**
+# **Teste - Inmetrics**
 ##### _Desenvolvido por Rafael Carvalho_
 -- --
 &nbsp;
